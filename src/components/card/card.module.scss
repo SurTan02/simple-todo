@@ -1,0 +1,45 @@
+.root {
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #a2de0c;
+  margin: 20px;
+  padding: 10px;
+  height: 80px;
+  width: 92%;
+}
+.check {
+  width: 30px;
+  height: 30px;
+  position: static;
+  align-self: center;
+  margin: 15px;
+}
+.desc {
+  width: 500px;
+  text-align: start;
+  align-self: center;
+  font-weight: 400;
+  font-size: 15px;
+}
+.btn {
+  background-color: #32b276;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  border-top: 1px solid transparent;
+  max-height: 40px;
+  max-width: 100px;
+  min-width: 50px;
+  min-height: 30px;
+  text-align: start;
+  align-self: center;
+  order: 0;
+  position: static;
+  padding-top: 0.5em;
+  margin: 5px;
+}
+.del-btn {
+  background-color: #d11a24;
+  text-align: center;
+}
